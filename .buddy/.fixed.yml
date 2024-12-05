@@ -7,6 +7,7 @@
   actions:
   - action: "Compress images"
     type: "IMAGE_COMPRESSION"
+    disabled: true
     local_path: ".buddy/source/"
     destination: ".buddy/target/"
     level: "3"
