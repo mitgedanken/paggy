@@ -4,3 +4,10 @@
   - "refs/heads/dev"
   - ":default"
   fail_on_prepare_env_warning: true
+  actions:
+  - action: "Compress images"
+    type: "IMAGE_COMPRESSION"
+    local_path: ".buddy/source/"
+    destination: ".buddy/target/"
+    level: "3"
+    types: "png,gif,svg"
