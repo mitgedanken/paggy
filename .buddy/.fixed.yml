@@ -11,3 +11,4 @@
     destination: ".buddy/target/"
     level: "3"
     types: "png,gif,svg"
+    ignore_errors: true
