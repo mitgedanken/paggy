@@ -4,6 +4,7 @@
   - "refs/heads/dev"
   - ":default"
   fail_on_prepare_env_warning: true
+  resources: "NANO"
   actions:
   - action: "Compress images"
     type: "IMAGE_COMPRESSION"
